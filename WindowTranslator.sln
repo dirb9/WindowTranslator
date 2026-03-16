@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 18.0.11205.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowTranslator", "WindowTranslator\WindowTranslator.csproj", "{29ACE192-BE00-40AC-82D4-CD527047A7C0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D4A2E00A-7EBF-4C49-AA21-11D38041ABA8} = {D4A2E00A-7EBF-4C49-AA21-11D38041ABA8}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "!Solution Items", "!Solution Items", "{90C4837E-3350-4820-8B62-F81E18B8D609}"
 	ProjectSection(SolutionItems) = preProject
@@ -68,6 +71,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowTranslator.Plugin.ColorThiefPlugin.Tests", "Plugins\WindowTranslator.Plugin.ColorThiefPlugin.Tests\WindowTranslator.Plugin.ColorThiefPlugin.Tests.csproj", "{04FE6097-262E-4B93-91A5-7F202EB7E0BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowTranslator.Plugin.PLaMoPlugin", "Plugins\WindowTranslator.Plugin.PLaMoPlugin\WindowTranslator.Plugin.PLaMoPlugin.csproj", "{78228A45-3706-C4E0-6538-EE62A8D9F743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowTranslator.Plugin.OneOcrBrtnsCntrstPlugin", "Plugins\WindowTranslator.Plugin.OneOcrBrtnsCntrstPlugin\WindowTranslator.Plugin.OneOcrBrtnsCntrstPlugin.csproj", "{61BCFF1D-31EB-0B58-DF0D-F531AB9E86BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -343,6 +348,18 @@ Global
 		{78228A45-3706-C4E0-6538-EE62A8D9F743}.Release|x64.Build.0 = Release|Any CPU
 		{78228A45-3706-C4E0-6538-EE62A8D9F743}.Release|x86.ActiveCfg = Release|Any CPU
 		{78228A45-3706-C4E0-6538-EE62A8D9F743}.Release|x86.Build.0 = Release|Any CPU
+		{61BCFF1D-31EB-0B58-DF0D-F531AB9E86BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BCFF1D-31EB-0B58-DF0D-F531AB9E86BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BCFF1D-31EB-0B58-DF0D-F531AB9E86BF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{61BCFF1D-31EB-0B58-DF0D-F531AB9E86BF}.Debug|x64.Build.0 = Debug|Any CPU
+		{61BCFF1D-31EB-0B58-DF0D-F531AB9E86BF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{61BCFF1D-31EB-0B58-DF0D-F531AB9E86BF}.Debug|x86.Build.0 = Debug|Any CPU
+		{61BCFF1D-31EB-0B58-DF0D-F531AB9E86BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BCFF1D-31EB-0B58-DF0D-F531AB9E86BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61BCFF1D-31EB-0B58-DF0D-F531AB9E86BF}.Release|x64.ActiveCfg = Release|Any CPU
+		{61BCFF1D-31EB-0B58-DF0D-F531AB9E86BF}.Release|x64.Build.0 = Release|Any CPU
+		{61BCFF1D-31EB-0B58-DF0D-F531AB9E86BF}.Release|x86.ActiveCfg = Release|Any CPU
+		{61BCFF1D-31EB-0B58-DF0D-F531AB9E86BF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -365,6 +382,7 @@ Global
 		{49F44365-A6F5-4378-B8A5-79B9A05872B9} = {2123A8A4-05BB-4D10-AA07-E02207E55B14}
 		{04FE6097-262E-4B93-91A5-7F202EB7E0BE} = {2123A8A4-05BB-4D10-AA07-E02207E55B14}
 		{78228A45-3706-C4E0-6538-EE62A8D9F743} = {2123A8A4-05BB-4D10-AA07-E02207E55B14}
+		{61BCFF1D-31EB-0B58-DF0D-F531AB9E86BF} = {2123A8A4-05BB-4D10-AA07-E02207E55B14}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8ED22421-F4EA-4FE3-BBF6-62DFCDD195CB}
